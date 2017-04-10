@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
     for(var y=0;y<bImg.length;y++){
         bImg[y].startX=parseInt(getStyle(bImg[y],'left'))
     }
-    wrapaa.onmousemove=function(ev){
+    wrapaa.onmousemove=function(ev){  
         ev=ev||window.event;
         //获取鼠标的位置与大盒子中心点位置的距离
         var iX=ev.clientX-(oWrap.offsetLeft+this.offsetWidth/2);
